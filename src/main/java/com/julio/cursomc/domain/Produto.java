@@ -12,7 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
-@Entity
+@Entity//Anotação representa que a classe sera uma tabela na base, gera a tabela
 public class Produto implements Serializable {
 	
 
